@@ -1,0 +1,232 @@
+.banner{
+    display:flex; 
+    flex-direction:row; 
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #banner1{
+    height: 150px;
+  }
+  
+  .banner .fa , .email {
+    padding: 18px;
+    font-size: 26px;
+    width: 65px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px;
+    border-radius:50%;
+    background-color:  transparent;
+    border: 2px solid DarkCyan;
+    color: darkcyan;
+  }
+  
+  .banner .email{
+    font-size: 24px;
+  }
+
+  .banner .fa:hover{
+    color:#fff;
+  }
+
+  .banner .email:hover{
+    color:#fff;
+  }
+  
+  .banner .fa:hover {
+    transition: 0.5s ease-out;
+    transform: rotateZ(360deg);
+  }
+  
+  .banner .email:hover {
+    background-color:  #EA4335;
+    transition: 0.5s ease-out;
+    transform: rotateZ(360deg);
+    cursor: pointer;
+  }
+  .banner .fa-twitter:hover{
+    background-color: #2b97f1;
+  }
+  
+  .banner .fa-facebook:hover{
+    background-color: #3b5998;
+  }
+  
+  .banner .fa-instagram:hover{
+    background-color:#ef5a92;
+  }
+  
+  .banner .fa-snapchat-ghost:hover{
+    background-color:#FFFC00;
+  }
+  
+  .banner .fa-whatsapp:hover{
+    background-color:#25D366;
+  }
+  
+  
+  .banner iframe{
+    width: 90%;
+    height: 500px;
+    margin: 20px;
+  }
+  
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 400px; 
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+h2{
+    font-size: 26px !important;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    height: 270px; 
+    width:16%;
+    margin:12px;
+    padding:12px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+box-shadow: 5px 5px 30px 15px rgba(218, 218, 218, 0.25), 
+-5px -5px 30px 15px rgba(211, 211, 211, 0.22);
+cursor:pointer;
+}
+
+.Title{
+  color:DarkCyan;
+  text-align: center;
+  font-size: 30px;
+}
+.column p{
+  font-size: 16px;
+  text-align: center;
+  line-height: 2;
+  color:DarkCyan;
+}
+
+.bigevents{
+    display: flex;
+    flex-direction: column;
+    height: 600px; 
+    width:100%;
+    padding-top:60px;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.column:hover{
+   transform: translate3D(0,-5px,0) scale(1.03);
+   transition: all .4s ease; 
+}
+
+
+.column .icons{
+  padding:5px;
+  color: #f3cd37;
+
+}
+
+#cart-counter{
+  color:#555;
+  display:inline-block;
+}
+
+@media (max-width: 1200px){
+    h2{
+        font-size: 24px !important;
+    }
+    .row{
+    flex-direction: row;
+    height: auto; 
+    width:80%; 
+    flex-wrap:wrap;
+  }
+.column{
+  flex-direction: column;
+    height: 300px; 
+    width:50%;
+    padding:8px;
+}
+
+.column p{
+    font-size: 16px;
+}
+
+.bigevents{
+    flex-direction: column;
+    height: auto; 
+    flex-wrap:wrap;
+}
+.Title{
+  font-size: 22px;
+}
+.column h2{
+  font-size: 18px;
+}
+
+
+
+}
+@media (max-width: 780px){
+    h2{
+        font-size: 22px !important;
+    }
+    .row h2{
+        font-size: 20px;
+      }
+    
+      .banner .fa , .email {
+        padding: 14px;
+        font-size: 22px;
+        width: 50px;
+        margin: 5px;
+      }
+      
+      .banner .email {
+        font-size: 20px;
+      }
+      
+      .banner iframe{
+        width: 100%;
+        height: 500px;
+      }
+    
+ 
+      
+        
+    .row{
+    flex-direction: column;
+    height: auto; 
+    width:100%;
+    
+}
+.column{
+  flex-direction: column;
+    height: 250px; 
+    width:50%;
+    padding:8px;
+
+}
+
+.bigevents{
+    flex-direction: column;
+    flex-wrap:wrap;
+    height: auto;
+}
+
+.column p{
+    font-size: 16px;
+}
+
+}
